@@ -1,0 +1,8 @@
+.brand {
+  display: inline-block;
+  width: var(--w-logo);
+}
+.brand__image {
+  display: block;
+  width: 100%;
+}

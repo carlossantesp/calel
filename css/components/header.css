@@ -1,0 +1,29 @@
+.header {
+  background-color: var(--white);
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--h-header);
+}
+.header__buttons {
+  display: flex;
+  align-items: center;
+  gap: var(--sm);
+}
+.header__links .button--link {
+  display: none;
+}
+.header__menu {
+  display: none;
+}
+.menu__btn {
+  border: none;
+  background-color: transparent;
+  display: inline-block;
+  width: var(--w-icon);
+  height: var(--w-icon);
+  background-image: url(../../images/icons/menu.svg);
+  cursor: pointer;
+}

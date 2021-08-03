@@ -1,0 +1,25 @@
+.button {
+  background-color: var(--white);
+  border: none;
+  color: var(--black);
+  font: var(--button);
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  padding: var(--padding-button);
+  border-radius: var(--border-button);
+}
+.button--primary {
+  background-color: var(--primary);
+  color: var(--white);
+}
+.button--secondary {
+  background-color: var(--black);
+  color: var(--white);
+}
+.button--link {
+  background-color: transparent;
+}
+.button--bordered {
+  border: 1px solid var(--black);
+}
