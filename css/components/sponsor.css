@@ -1,0 +1,28 @@
+.sponsor {
+  background-color: var(--gray-bg);
+}
+.sponsor__title {
+  font: var(--headingH5);
+  text-align: center;
+}
+.sponsor__title span {
+  color: var(--primary);
+}
+.sponsor__container {
+  margin-block-start: 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(8rem, max-content));
+  grid-auto-flow: dense;
+  align-items: center;
+  gap: 4rem;
+}
+.sponsor__img {
+  opacity: 0.5;
+  height: var(--xlg);
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+.sponsor__img img {
+  max-block-size: 100%;
+}
