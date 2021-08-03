@@ -1,11 +1,13 @@
 .hero {
+  padding-block-start: var(--padding-hero);
+  padding-block-end: var(--padding-hero);
+}
+.hero-contain {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: var(--lg);
-  padding-block-start: var(--padding-hero);
-  padding-block-end: var(--padding-hero);
 }
 .hero__info {
   word-break: break-all;
@@ -31,7 +33,7 @@
   }
 }
 @media screen and (min-width: 992px) {
-  .hero {
+  .hero-contain {
     flex-direction: row;
   }
   .hero__img {
