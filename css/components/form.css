@@ -1,0 +1,26 @@
+.form {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+.form__control {
+  display: block;
+  width: 100%;
+  border: 1px solid var(--gray);
+  padding: 0.6875rem var(--lg);
+  border-radius: var(--border-button);
+  font: var(--body3);
+}
+.form__control::placeholder {
+  color: var(--gray);
+}
+.form .button {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+@media screen and (min-width: 992px) {
+  .form {
+    width: 50%;
+  }
+}

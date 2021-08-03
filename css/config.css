@@ -10,10 +10,22 @@ html {
   -moz-box-sizing: inherit;
   box-sizing: inherit;
 }
-body {
+* {
   margin: 0;
   padding: 0;
+}
+body {
   background-color: var(--white);
   color: var(--black);
   font: var(--body1);
+}
+.main {
+  display: flex;
+  flex-direction: column;
+}
+img {
+  display: block;
+  max-inline-size: 100%;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
 }

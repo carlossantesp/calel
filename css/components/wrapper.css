@@ -8,12 +8,6 @@
 
 @media screen and (min-width: 768px) {
   .wrapper {
-    max-inline-size: 1200px;
-  }
-}
-@media screen and (min-width: 992px) {
-  .wrapper {
-    padding-inline-start: 0;
-    padding-inline-end: 0;
+    max-inline-size: 73rem;
   }
 }

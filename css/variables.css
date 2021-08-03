@@ -3,7 +3,8 @@
   --primary: #006bff;
   --black: #000000;
   --white: #ffffff;
-  --gray: #fbfbfb;
+  --gray-bg: #fbfbfb;
+  --gray: #cecece;
   /* Fonts */
   --Inter: "Inter", sans-serif;
   /* Fonts for mobile devices */
@@ -18,6 +19,9 @@
   --body1-medium: 500 18px/29.12px var(--Inter);
   --body2: 400 16px/24px var(--Inter);
   --body2-semi: 700 16px/24px var(--Inter);
+  --body2-bold: 600 16px/32px var(--Inter);
+  --body3: 400 14px/24px var(--Inter);
+  --body3-semi: 700 14px/24px var(--Inter);
   --button: 700 14px/28px var(--Inter);
 
   /* Sizes */
@@ -27,6 +31,7 @@
   --padding-button: 0.625rem 1.5rem;
   --border-button: 2.5rem;
   --padding-hero: 4rem;
+  --w-self: 87px;
   --mb-hero-title: 2rem;
   --gap-1: 2.5rem;
   --border-footer: 2px dashed #cecece;
@@ -50,12 +55,10 @@
     --body1: 400 18px/36px var(--Inter);
     --body1-medium: 500 18px/36px var(--Inter);
     --body2: 400 16px/32px var(--Inter);
-    --body2-bold: 600 16px/32px var(--Inter);
-    --body3: 400 14px/24px var(--Inter);
-    --body3-semi: 700 14px/24px var(--Inter);
 
     --padding-hero: 8rem;
     --mb-hero-title: 4rem;
+    --w-self: 130px;
     --padding-footer: 8rem;
   }
 }
