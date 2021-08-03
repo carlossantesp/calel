@@ -1,0 +1,59 @@
+:root {
+  /* Colors */
+  --primary: #006bff;
+  --black: #000000;
+  --white: #ffffff;
+  --gray: #fbfbfb;
+  /* Fonts */
+  --Inter: "Inter", sans-serif;
+  /* Fonts for mobile devices */
+  --headingH1: 900 50px/48px var(--Inter);
+  --headingH2: 900 40px/64.72px var(--Inter);
+  --headingH3: 900 32px/51.78px var(--Inter);
+  --headingH4: 900 24px/38.83px var(--Inter);
+  --headingH4-regular: 400 24px/38.83px var(--Inter);
+  --headingH5: 900 20px/32.36px var(--Inter);
+  --headingH5-medium: 500 20px/32.36px var(--Inter);
+  --body1: 400 18px/29.12px var(--Inter);
+  --body1-medium: 500 18px/29.12px var(--Inter);
+  --body2: 400 16px/24px var(--Inter);
+  --body2-semi: 700 16px/24px var(--Inter);
+  --button: 700 14px/28px var(--Inter);
+
+  /* Sizes */
+  --h-header: 6rem;
+  --w-icon: 1.5rem;
+  --w-logo: 6.8875rem;
+  --padding-hero: 4rem;
+  --mb-hero-title: 2rem;
+  --gap-1: 2.5rem;
+  --border-footer: 2px dashed #cecece;
+  --padding-footer: 2.5rem;
+
+  --lg: 1.5rem;
+  --xlg: 2rem;
+  --md: 1rem;
+  --sm: 0.5rem;
+  --xs: 0.25rem;
+}
+@media screen and (min-width: 992px) {
+  :root {
+    /* Fonts for desktop devices */
+    --headingH1: 900 90px/90px var(--Inter);
+    --headingH2: 900 52px/65px var(--Inter);
+    --headingH3: 900 40px/48px var(--Inter);
+    --headingH4: 900 32px/40px var(--Inter);
+    --headingH5: 900 24px/32px var(--Inter);
+    --headingH5-medium: 500 24px/32px var(--Inter);
+    --body1: 400 18px/36px var(--Inter);
+    --body1-medium: 500 18px/36px var(--Inter);
+    --body2: 400 16px/32px var(--Inter);
+    --body2-bold: 600 16px/32px var(--Inter);
+    --body3: 400 14px/24px var(--Inter);
+    --body3-semi: 700 14px/24px var(--Inter);
+
+    --padding-hero: 8rem;
+    --mb-hero-title: 4rem;
+    --padding-footer: 8rem;
+  }
+}
