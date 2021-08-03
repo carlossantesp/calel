@@ -10,13 +10,15 @@
   gap: var(--lg);
 }
 .hero__info {
-  word-break: break-all;
+  display: flex;
+  flex-direction: column;
 }
 .hero__img {
   order: -1;
 }
 .hero__title {
   font: var(--headingH1);
+  word-break: break-all;
   margin-block-start: var(--xlg);
   margin-block-end: var(--xlg);
 }
@@ -28,7 +30,7 @@
   margin-block-end: var(--lg);
 }
 @media screen and (min-width: 768px) {
-  .hero__info {
+  .hero__title {
     word-break: normal;
   }
 }
