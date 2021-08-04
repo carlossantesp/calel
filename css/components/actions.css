@@ -1,0 +1,50 @@
+.actions {
+  display: grid;
+  grid-template-areas: "title" "button" "description" "desc";
+  gap: 2.5rem;
+}
+.action__title {
+  font: var(--headingH1);
+  grid-area: title;
+}
+.action__description {
+  font: var(--headingH4);
+  grid-area: description;
+}
+.action__desc {
+  grid-area: desc;
+}
+.action__desc a {
+  font: var(--body1-medium);
+}
+.action__desc a,
+.action__button {
+  color: var(--black);
+  text-decoration: none;
+}
+.action__button {
+  font: var(--headingH5);
+  grid-area: button;
+  background: url("../../images/icons/polygon.svg") no-repeat;
+  height: var(--w-polygon);
+  width: var(--h-polygon);
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--md);
+}
+.actions,
+.action__button {
+  align-items: center;
+}
+@media screen and (min-width: 992px) {
+  .actions {
+    grid-template-columns: minmax(35rem, 49.5rem) 1fr;
+    grid-template-areas: "title button" "description button" "desc desc";
+  }
+  .action__description {
+    font: var(--headingH5-medium);
+  }
+}
