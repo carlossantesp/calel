@@ -4,6 +4,9 @@
 .sponsor__title {
   font: var(--headingH5);
   text-align: center;
+  max-inline-size: 450px;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
 }
 .sponsor__title span {
   color: var(--primary);
