@@ -1,5 +1,9 @@
 .header {
   background-color: var(--white);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 .header-container {
   display: flex;
@@ -16,7 +20,19 @@
   display: none;
 }
 .header__menu {
-  display: none;
+  display: block;
+  position: fixed;
+  background-color: var(--gray-bg);
+  top: var(--h-header);
+  right: 0;
+  width: 75%;
+  height: calc(100vh - var(--h-header));
+  transform: scale(0, 1);
+  transform-origin: top right;
+  transition: transform 0.25s ease;
+}
+.header__menu.active {
+  transform: scale(1, 1);
 }
 .menu__btn {
   border: none;
@@ -26,4 +42,29 @@
   height: var(--w-icon);
   background-image: url(../../images/icons/menu.svg);
   cursor: pointer;
+}
+.menu__btn.active {
+  background-image: url(../../images/icons/close.svg);
+}
+
+@media screen and (min-width: 768px) {
+  .header__menu {
+    width: 50%;
+  }
+  .header__links .button--link {
+    display: initial;
+  }
+}
+@media screen and (min-width: 992px) {
+  .header__menu {
+    transform: initial;
+    background-color: transparent;
+    position: initial;
+    inset: initial;
+    width: initial;
+    height: initial;
+  }
+  .menu__btn {
+    display: none;
+  }
 }

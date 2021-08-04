@@ -4,6 +4,7 @@
 @import "./utilities.css";
 @import "./components/wrapper.css";
 @import "./components/header.css";
+@import "./components/navbar.css";
 @import "./components/brand.css";
 @import "./components/button.css";
 @import "./components/hero.css";
