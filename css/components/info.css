@@ -1,0 +1,38 @@
+.info,
+.info__container {
+  display: flex;
+  flex-direction: column;
+}
+.info {
+  align-items: center;
+}
+.info__desc {
+  max-inline-size: var(--w-title-info);
+}
+.info__desc .title,
+.info__desc .medium {
+  margin-block-end: var(--gap-1);
+}
+.info__container {
+  gap: var(--gap-1);
+}
+.info .button {
+  display: block;
+  margin-block-start: var(--gap-1);
+}
+@media screen and (min-width: 768px) {
+  .info__container {
+    flex-direction: row;
+  }
+  .info__container > .card {
+    flex: 1;
+  }
+  .info .button {
+    display: inline-block;
+  }
+}
+@media screen and (min-width: 992px) {
+  .info__desc .medium {
+    margin-block-end: 5rem;
+  }
+}

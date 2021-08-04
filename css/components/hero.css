@@ -19,8 +19,8 @@
 .hero__title {
   font: var(--headingH1);
   word-break: break-all;
-  margin-block-start: var(--xlg);
-  margin-block-end: var(--xlg);
+  margin-block-start: var(--mb-hero-title);
+  margin-block-end: var(--mb-hero-title);
 }
 .hero__title span {
   color: var(--primary);
@@ -50,6 +50,5 @@
   }
   .hero__title {
     margin-block-start: 0;
-    margin-block-end: 4rem;
   }
 }

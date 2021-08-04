@@ -31,9 +31,10 @@
   --padding-button: 0.625rem 1.5rem;
   --border-button: 2.5rem;
   --padding-hero: 4rem;
-  --w-self: 87px;
   --mb-hero-title: 2rem;
   --gap-1: 2.5rem;
+  --h-card-img: 21.625rem;
+  --w-title-info: 37.5rem;
   --border-footer: 2px dashed #cecece;
   --padding-footer: 2.5rem;
 
@@ -58,7 +59,7 @@
 
     --padding-hero: 8rem;
     --mb-hero-title: 4rem;
-    --w-self: 130px;
+    --w-title-info: 49.5rem;
     --padding-footer: 8rem;
   }
 }
