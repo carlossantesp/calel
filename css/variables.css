@@ -5,6 +5,10 @@
   --white: #ffffff;
   --gray-bg: #fbfbfb;
   --gray: #cecece;
+  /* Hover colors */
+  --primary-hover: hsl(215, 100%, 45%);
+  --black-hover: hsl(0, 0%, 25%);
+  --white-hover: hsl(0, 0%, 90%);
   /* Fonts */
   --Inter: "Inter", sans-serif;
   /* Fonts for mobile devices */

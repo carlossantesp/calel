@@ -21,7 +21,16 @@
 .action__button {
   color: var(--black);
   text-decoration: none;
+  transition: all 0.25s ease;
 }
+.action__desc a:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+.action__button:hover {
+  filter: saturate(1.25);
+}
+
 .action__button {
   font: var(--headingH5);
   grid-area: button;

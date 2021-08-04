@@ -18,8 +18,12 @@
   color: var(--black);
   font: var(--body2-bold);
   text-align: center;
+  transition: all 0.25s ease;
 }
-
+.navbar__link:hover,
+.navbar__item.active .navbar__link {
+  color: var(--primary);
+}
 @media screen and (min-width: 768px) {
   .navbar__item:last-child {
     display: none;

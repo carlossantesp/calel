@@ -9,14 +9,24 @@
   padding: var(--padding-button);
   border-radius: var(--border-button);
   text-align: center;
+  transition: all 0.25s ease;
+}
+.button:hover {
+  background-color: var(--white-hover);
 }
 .button--primary {
   background-color: var(--primary);
   color: var(--white);
 }
+.button--primary:hover {
+  background-color: var(--primary-hover);
+}
 .button--secondary {
   background-color: var(--black);
   color: var(--white);
+}
+.button--secondary:hover {
+  background-color: var(--black-hover);
 }
 .button--link {
   background-color: transparent;

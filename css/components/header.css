@@ -52,7 +52,7 @@
     width: 50%;
   }
   .header__links .button--link {
-    display: initial;
+    display: inline-block;
   }
 }
 @media screen and (min-width: 992px) {

@@ -11,7 +11,12 @@
   font: var(--body2);
   display: block;
   height: inherit;
+  transition: color 0.25s ease;
 }
 .nav__item:last-child {
   margin-block-end: 0;
+}
+.nav__link:hover {
+  text-decoration: underline;
+  color: var(--primary);
 }

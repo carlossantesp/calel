@@ -25,6 +25,10 @@
   width: auto;
   display: flex;
   align-items: center;
+  transition: opacity 0.25s ease;
+}
+.sponsor__img:hover {
+  opacity: 1;
 }
 .sponsor__img img {
   max-block-size: 100%;
